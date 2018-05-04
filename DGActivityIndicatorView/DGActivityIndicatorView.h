@@ -44,7 +44,9 @@ typedef NS_ENUM(NSUInteger, DGActivityIndicatorAnimationType) {
     DGActivityIndicatorAnimationTypeBallSpinFadeLoader
 };
 
-@interface DGActivityIndicatorView : UIView
+@interface DGActivityIndicatorView : UIView{
+    CALayer *_animationLayer;
+}
 
 - (id)initWithType:(DGActivityIndicatorAnimationType)type;
 - (id)initWithType:(DGActivityIndicatorAnimationType)type tintColor:(UIColor *)tintColor;

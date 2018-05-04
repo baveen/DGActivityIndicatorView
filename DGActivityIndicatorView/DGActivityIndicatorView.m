@@ -45,7 +45,7 @@
 static const CGFloat kDGActivityIndicatorDefaultSize = 40.0f;
 
 @interface DGActivityIndicatorView () {
-    CALayer *_animationLayer;
+//    CALayer *_animationLayer;
 }
 
 @end
